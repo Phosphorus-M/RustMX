@@ -144,7 +144,7 @@ impl Component for OurProjects {
                         <div class="our-projects-list-of-repositories">
                         {
                           for repos.iter().map(|repo| {
-                            render_repo(&repo.name, &repo.description.as_ref().unwrap_or(&"".to_string()), &repo.language,repo.stargazers_count, &repo.html_url)
+                            render_repo(&repo.name, &repo.description.clone().unwrap_or_else(|| String::from("")), &repo.language,repo.stargazers_count, &repo.html_url)
                           })
                         }
                         </div>

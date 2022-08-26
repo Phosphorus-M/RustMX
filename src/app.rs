@@ -30,7 +30,7 @@ impl Component for App {
           <div class="bg-general" >
             <Header />
             <Router<AppRoute, ()>
-            render = Router::render(|switch: AppRoute| Self::switch(switch))
+            render = Router::render(Self::switch)
         />
           </div>
         }

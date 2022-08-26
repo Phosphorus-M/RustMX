@@ -11,7 +11,7 @@ pub struct User {
     pub bio: Option<String>,
 }
 
-#[derive(Clone, PartialEq, Properties)]
+#[derive(Clone, Properties)]
 pub struct Props {
     pub user_url: String,
 }

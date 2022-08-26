@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-#[derive(Clone, PartialEq, Properties)]
+#[derive(Clone, Properties)]
 pub struct Event {
     pub title: String,
     pub description: String,

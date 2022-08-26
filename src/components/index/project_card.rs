@@ -36,7 +36,7 @@ impl From<String> for Lang {
     }
 }
 
-#[derive(Debug, Clone, PartialEq, Properties)]
+#[derive(Debug, Clone, Properties)]
 pub struct Props {
     pub text: String,
     pub title: String,
