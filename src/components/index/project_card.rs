@@ -1,4 +1,4 @@
-use yew::{prelude::*};
+use yew::prelude::*;
 
 #[derive(Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Lang {
