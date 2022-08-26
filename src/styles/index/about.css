@@ -1,0 +1,23 @@
+@layer utilities {
+    .about-container{
+        @apply md:py-5 mx-2 grid md:grid-cols-2 sm:gap-8 items-center;
+    }
+    .about-left-side{
+        @apply aspect-ratio;
+    }
+    .about-image{
+        @apply h-full w-full;
+        border-radius: 10px;
+        border: 9px white solid;
+    }
+    .about-right-side{
+        @apply font-ubuntu;
+    }
+    .about-description{
+        @apply py-6 text-xl font-open-sans;
+    }
+    .about-action{
+        @apply text-4xl font-open-sans underline font-bold;
+    }
+
+}

@@ -1,0 +1,38 @@
+@layer utilities {
+    .joinus-container{
+        @apply container flex flex-wrap md:px-5 py-10 mx-auto items-center justify-center;
+    }
+    .joinus-left-side{
+        @apply md:w-1/3 md:py-8 xsm:border-r-4 xsm:border-b-0 mb-10 md:mb-0 pb-10 border-b border-rust inline-flex items-center flex-col;
+        @apply px-4 md:pr-12;
+    }
+    .joinus-center-side{
+        @apply md:w-1/3 md:py-8 xsm:border-r-4 xsm:border-b-0 mb-10 md:mb-0 pb-10 border-b border-rust inline-flex items-center flex-col;
+        @apply px-4 md:pr-12;
+    }
+
+    .joinus-right-side{
+        @apply md:w-1/3 md:py-8 mb-10 md:mb-0 pb-10 inline-flex items-center flex-col;
+        @apply px-4 md:pl-12;
+    }
+    .joinus-side-container{
+        @apply flex flex-col items-center text-center font-ubuntu font-bold text-white drop-shadow-[7px_2px_4px_rgba(0,0,0,0.4)] text-xl;
+    }
+    .icon-container{
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+    }
+    .join-us-telegram-icon{
+        height:64px;
+        width:62px;
+    }
+    .join-us-twitter-icon{
+        height:62px;
+        width:62px;
+    }
+    .join-us-meetup-icon{
+        height:76px;
+        width:76px;
+    }
+}

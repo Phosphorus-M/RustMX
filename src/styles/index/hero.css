@@ -1,0 +1,17 @@
+@layer utilities {
+    .hero-container{
+        @apply container px-5 pt-20 pb-8 lg:w-4/5 mx-auto flex flex-wrap  items-center mx-auto text-center;
+    }    
+    .hero-text-container{
+        @apply w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0;
+    }
+    .hero-right-side{
+        @apply w-full object-cover object-center rounded;
+    }
+    .hero-title{
+        @apply text-white text-6xl font-bold font-open-sans mb-1 drop-shadow-[7px_2px_4px_rgba(0,0,0,0.4)] uppercase mb-5;
+    }
+    .hero-subtitle{
+        @apply text-2xl font-heading text-white font-ubuntu drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ;
+    }
+}
