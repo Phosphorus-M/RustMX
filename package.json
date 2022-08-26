@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "npm run build:css && trunk build",
-    "dev": "npm run build:css && trunk serve",
+    "build": "ls -la && yarn run build:css && trunk build",
+    "dev": "yarn run build:css && trunk serve",
     "build:css": "postcss src/styles/tailwind.css -o static/dist/tailwind.css"
   },
   "devDependencies": {
