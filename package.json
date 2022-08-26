@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "ls -la && yarn run build:css && trunk build",
+    "build": "yarn run build:css && ./trunk build --public-url RustMX",
     "dev": "yarn run build:css && trunk serve",
     "build:css": "postcss src/styles/tailwind.css -o static/dist/tailwind.css"
   },
